@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#6ef5bd"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hello World!"
+        android:textColor="#e7f734"
         android:textSize="20sp"/>
 
     <EditText
@@ -30,12 +32,14 @@
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
+        android:text="CheckBox"
+        android:textColor="#f74134"/>
 
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:textColor="#ab1d0a"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
