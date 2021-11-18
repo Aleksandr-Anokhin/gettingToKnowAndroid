@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#6ef5bd"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:textColor="#e7f734"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -22,8 +22,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:text="Button" />
 
     <Switch
         android:layout_width="wrap_content"
@@ -33,47 +33,49 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="CheckBox"
-        android:textColor="#f74134"/>
+        android:textColor="#f74134" />
 
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textColor="#ab1d0a"/>
+        android:textColor="#ab1d0a" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter the Password"
-        android:textSize="15sp"/>
+        android:textSize="15sp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter Your Email"
-        android:textSize="15sp"/>
+        android:textSize="15sp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"/>
+        android:inputType="textEmailAddress" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter Tour Birthday"
-        android:textSize="15sp"/>
+        android:textSize="15sp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="date"/>
+        android:inputType="date" />
+
     <CalendarView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
